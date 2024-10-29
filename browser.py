@@ -44,8 +44,6 @@ computer_browsers = [
 ]
 
 def main():
-    """Основная функция"""
-
     # Соединение данных один-ко-многим: браузер и компьютеры, использующие его
     one_to_many = [
         (c.owner_name, c.processing_power, b.name)
